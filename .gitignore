@@ -29,6 +29,7 @@ vector_datasource.egg-info/
 
 # recommended virtualenv path
 env/
+venv/
 
 data/Makefile-import-data
 data/Makefile-prepare-data
@@ -41,3 +42,4 @@ test_server.port
 
 # files generated during installation of software necessary for testing
 .eggs/*
+flat.nodes
