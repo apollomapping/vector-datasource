@@ -1,5 +1,5 @@
-bucket: apollomapping/tile_assets
-datestamp: no_buffered_land_shape
+bucket: tilezen-assets
+datestamp: 20180313
 
 shapefiles:
 
@@ -21,11 +21,11 @@ shapefiles:
     directory: land-polygons-split-3857
     shapefile-name: land-polygons-split-3857/land_polygons.shp
 
-  # - name: buffered_land
-  #   url: http://s3.amazonaws.com/mapzen-tiles-assets/curated/buffered_land_05232017.zip
-  #   prj: 3857
-  #   shapefile-name: buffered_land_05232017.shp
-  #   tile: true
+  - name: buffered_land
+    url: http://s3.amazonaws.com/tilezen-assets/curated/buffered_land_05232017.zip
+    prj: 3857
+    shapefile-name: buffered_land_05232017.shp
+    tile: true
 
   - name: ne_110m_lakes
     url: http://www.naturalearthdata.com/http//www.naturalearthdata.com/download/110m/physical/ne_110m_lakes.zip
